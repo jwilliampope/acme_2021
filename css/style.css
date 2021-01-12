@@ -1,0 +1,24 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  background: #f4f4f4;
+}
+
+/* GLOBAL */
+.container {
+  width: 80%;
+}
+
+#showcase {
+  min-height: 400px;
+  background: url(../img/showcase.jpg) no-repeat 0 -400px;
+  text-align: center;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  #showcase {
+    background-position: center;
+  }
+}
