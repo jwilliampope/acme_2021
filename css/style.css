@@ -1,5 +1,7 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
   padding: 0;
   margin: 0;
   background: #f4f4f4;
@@ -80,6 +82,8 @@ header a:hover {
   font-weight: 700;
 }
 
+/* SHOWCASE */
+
 #showcase {
   min-height: 400px;
   background: url(../img/showcase.jpg) no-repeat 0 -400px;
@@ -127,9 +131,9 @@ header a:hover {
 
 #boxes .box {
   float: left;
-  text-align: center;
   width: 30%;
   padding: 10px;
+  text-align: center;
 }
 
 #boxes .box img {
@@ -140,7 +144,7 @@ header a:hover {
 
 aside#sidebar .quote input,
 aside#sidebar .quote textarea {
-  width: 90;
+  width: 90%;
   padding: 5px;
 }
 
@@ -185,7 +189,9 @@ footer {
   header nav li,
   #newsletter h1,
   #newsletter form,
-  #boxes .box {
+  #boxes .box,
+  #article#main-col,
+  aside#sidebar {
     float: none;
     text-align: center;
     width: 100%;
